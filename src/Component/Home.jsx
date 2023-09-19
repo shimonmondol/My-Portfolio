@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='pl-20'>
                     <h1 className="leading-snug text-6xl font-bold text-orange-500">Hello, I am Shimon Kumar Mondol</h1>
                     <p className="text-4xl py-6 text-green-500">I am a MERN Stack Web Developer</p>
-                    <a className="btn btn-primary" href="https://drive.google.com/file/d/1yAytdBo6KWaQEFjXnPmaO1Gf_jxlLtSn/view?usp=sharing">Download CV</a>
+                    <a className="btn btn-primary" href="https://drive.google.com/file/d/1noKtcBrbCol5zWlSXJ6D_2_AMlaxzbwB/view?usp=sharing">Download CV</a>
                 </div>
             </div>
         </div>
