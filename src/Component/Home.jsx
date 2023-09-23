@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen bg-emerald-950">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img className='w-1/2 pr-8 rounded-full' src={img1} alt=''/>
                     <div className='pl-20'>

@@ -11,7 +11,8 @@ const Projects = () => {
         <div className="bg-purple-950">
             <Header></Header>
             <h1 className='text-center text-4xl font-semibold pb-9 pt-9 text-green-500'>Projects</h1>
-            <div className="grid gap-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pl-16 pb-16">
+            <div className="grid gap-1 grid-cols-1 md:grid-cols-2 
+                            lg:grid-cols-3 pl-16 pb-16">
                 <div className="card card-compact text-white justify-end grid gap-2 w-80 shadow-2xl">
                     <figure className="px-10 pt-10">
                         <img src={Emajohn} alt=''/>
@@ -51,6 +52,9 @@ const Projects = () => {
                         </div>
                     </div>                   
                 </div>
+            </div>
+            <div className="grid gap-1 grid-cols-1 md:grid-cols-2 
+                            lg:grid-cols-3 pl-16 pb-16">
                 <div className="card card-compact text-white justify-end grid gap-2 w-80 shadow-2xl">
                     <figure className="px-10 pt-10">
                         <img src={Car} alt=''/>
@@ -90,8 +94,7 @@ const Projects = () => {
                         </div>
                     </div>                   
                 </div>
-
-            </div>         
+            </div>        
         </div>
   );
 };

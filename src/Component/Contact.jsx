@@ -1,7 +1,12 @@
 import Header from './Header';
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { CgMail } from "react-icons/cg";
+import { BsLinkedin } from "react-icons/bs";
+
 const Contact = () => {
     return (
-        <div className="bg-purple-950">
+        <div className="bg-slate-800">
             <Header></Header>
             <h1 className='text-center text-4xl font-semibold pb-9 pt-6 text-red-500'>Contact</h1>
             <div className="hero min-h-screen pb-36">
@@ -21,11 +26,19 @@ const Contact = () => {
                             </div>
                         </div>                       
                         <div className="form-control mb-5">
-                            <button className="btn btn-primary">Submit</button>
+                            <button className="btn btn-primary">Send</button>
+                        </div>
+                        <h1 className="text-2xl text-center ps-2 pb-2">Connect With Social Media</h1>
+                        <div className="flex">
+                            <a className="text-4xl pl-12 pt-1 text-blue-600" href="https://www.facebook.com/"><FaFacebook/></a>
+                            <a className="text-4xl pl-6 pt-1 text-rose-400" href="https://www.instagram.com/"><FaInstagram/></a>
+                            <a className="text-5xl pl-6 text-gray-400" href="https://mail.google.com/"><CgMail/></a>
+                            <a className="text-4xl pl-6 pt-1 text-blue-600" href="https://www.linkedin.com/"><BsLinkedin/></a>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>          
     );
 };
