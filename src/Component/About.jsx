@@ -2,7 +2,7 @@ import img2 from '../Images/img2.png';
 import Header from './Header';
 const About = () => {
     return (
-        <div>
+        <div className="bg-blue-950">
             <Header></Header>
             <div>
                 <div className="hero min-h-screen">

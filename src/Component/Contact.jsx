@@ -1,11 +1,11 @@
 import Header from './Header';
 const Contact = () => {
     return (
-        <div>
+        <div className="bg-purple-950">
             <Header></Header>
             <h1 className='text-center text-4xl font-semibold pb-9 pt-6 text-red-500'>Contact</h1>
             <div className="hero min-h-screen pb-36">
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-500">
                     <div className="card-body">
                         <div className="form-control">
                             <div className="mb-5">
