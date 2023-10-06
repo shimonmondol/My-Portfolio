@@ -30,10 +30,10 @@ const Contact = () => {
                         </div>
                         <h1 className="text-2xl text-center ps-2 pb-2">Connect With Social Media</h1>
                         <div className="flex">
-                            <a className="text-4xl pl-12 pt-1 text-blue-600" href="https://www.facebook.com/"><FaFacebook/></a>
-                            <a className="text-4xl pl-6 pt-1 text-rose-400" href="https://www.instagram.com/"><FaInstagram/></a>
-                            <a className="text-5xl pl-6 text-gray-400" href="https://mail.google.com/"><CgMail/></a>
-                            <a className="text-4xl pl-6 pt-1 text-blue-600" href="https://www.linkedin.com/"><BsLinkedin/></a>
+                            <a className="text-4xl pl-12 pt-1 text-blue-600" href="https://www.facebook.com/shimon.mondol/"><FaFacebook/></a>
+                            <a className="text-4xl pl-6 pt-1 text-rose-400" href="https://www.instagram.com/shimonmondol/"><FaInstagram/></a>
+                            <a className="text-5xl pl-6 text-gray-400" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AYZoVhc5-vWwEn4Ie8kXaubjdNtoqXd1XTQOLTk52WhFcMO3U3YhgPz7pzeRLEaP8boZnhEcuusSpw&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1007325962%3A1696606695338745&theme=glif"><CgMail/></a>
+                            <a className="text-4xl pl-6 pt-1 text-blue-600" href="https://www.linkedin.com/in/shimon-kumar-mondol-69ba44206/"><BsLinkedin/></a>
                         </div>
                     </div>
                 </div>
