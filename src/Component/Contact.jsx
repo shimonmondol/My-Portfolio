@@ -26,7 +26,7 @@ const Contact = () => {
                             </div>
                         </div>                       
                         <div className="form-control mb-5">
-                            <button className="btn btn-primary">Send</button>
+                            <button className="btn btn-secondary">Send</button>
                         </div>
                         <h1 className="text-2xl text-center ps-2 pb-2">Connect With Social Media</h1>
                         <div className="flex">
